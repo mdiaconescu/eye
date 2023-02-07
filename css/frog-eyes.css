@@ -1,0 +1,80 @@
+body {
+    background: #14495e url('../images/water-lily-1920.jpg') center top no-repeat fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    position: fixed;
+    right: 25px;
+    top: 25px;
+}
+
+a.button {
+    background: #14495e;
+    border: 1px solid #14495e;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 1.0;
+    margin: 10px;
+    outline: none;
+    padding: 8px 40px;
+    text-decoration: none;
+}
+
+.head {
+  background: darkolivegreen;
+  border-radius: 50%;
+  height: 75vh;
+  left: 0;
+  position: fixed;
+  top: 65%;
+  width: 100%;
+}
+
+.mouth {
+  background: rgba(30, 80, 0, 0.5);
+  border-radius: 5px;
+  height: 6px;
+  margin: 15% auto;
+  width: 58%;
+}
+
+.eyes {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.eye {
+  border: 10px solid darkolivegreen;
+  border-radius: 50%;
+  background: #fff;
+  display: inline-block;
+  height: 200px;
+  margin: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+
+.ball {
+  background: #000;
+  border: 30px solid darkolivegreen;
+  border-radius: 50%;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+  width: 50px;
+}
