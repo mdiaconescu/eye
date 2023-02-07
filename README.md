@@ -1,4 +1,4 @@
-# eye-exercise
+# eye
 
 ## Description
 This is a programming exercise for creating two animated eyeballs on the screen. Each eyeball is programmed to follow the user's mouse pointer as it moves across the screen. I created two different pages for this app.
